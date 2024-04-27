@@ -2,9 +2,15 @@
     ViewData["Title"] = "Cadastrar Curso";
 }
 
-<div class="container-fluid bg-dark text-center text-light p-5 mt-5 shadow-lg">
+<div class="container-fluid bg-dark text-center text-light p-6 shadow-lg" id="container">
+
+    <div class="borderTop"></div>
+    <div class="borderLeft"></div>
+    <div class="borderRight"></div>
+    <div class="borderBottom"></div>
+
     <h1>@ViewData["Title"]</h1>
-    
+
     <form>
         <div class="form-group row">
             <label for="nomeCurso" class="col-sm-2 col-form-label">Nome do Curso</label>
@@ -20,7 +26,8 @@
             </div>
         </div>
 
-        <button class="btn btn-danger">Cancelar</button>
-        <button class="btn btn-success">Cadastrar</button>
+        <button class="btn btn-avanadeRed">Cancelar</button>
+        <button class="btn btn-avanadeGreen">Cadastrar</button>
     </form>
+
 </div>

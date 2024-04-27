@@ -2,11 +2,30 @@
     ViewData["Title"] = "Bem Vindo, Aluno!";
 }
 
-<div class="container-fluid bg-dark text-center text-light p-5 mt-5 shadow-lg" >
-    <h1>@ViewData["Title"]</h1>
-    <p>Por favor, escolha uma opção:</p>
-    <button class="btn btn-success">Entrar</button>
-    <p><br />ou</p>
-    <button class="btn btn-primary">Criar Cadastro</button>
+<div class="container-fluid bg-dark text-center text-light p-6 shadow-lg" id="container">
+ 
+    <div class="borderTop"></div>
+    <div class="borderLeft"></div>
+    <div class="borderRight"></div>
+    <div class="borderBottom"></div>
+
+    <div class="row justify-content-center align-items-center">
+        <div class="col-sm">
+            <img src="./css/avanade.png" width="100%" />
+            <h1>@ViewData["Title"]</h1>
+
+
+            <p>Por favor, escolha uma opção:</p>
+
+        </div>
+
+        <div class="col-sm">
+            <button class="btn btn-lg btn-avanadeGreen">Entrar</button>
+            <p><br />ou</p>
+            <button class="btn btn-lg btn-avanade">Efetuar Cadastro</button>
+
+        </div>
+    </div>
+
     
 </div>

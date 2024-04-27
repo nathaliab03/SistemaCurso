@@ -20,3 +20,125 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+main {
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#container {
+    padding: 5em;
+    position: relative;
+    
+}
+
+.borderTop {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to left, #ff9102, #ff4800)1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    transition: 0.5s ease-in;
+}
+
+#container:hover > .borderTop {
+    border-image: linear-gradient(to left, #ff2600, #ff9102)1;
+}
+
+.borderLeft {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #ff9102, #ff4800)1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 50%;
+    transition: 0.5s ease-in;
+}
+
+#container:hover > .borderLeft {
+    border-image: linear-gradient(to top, #ff2600, #ff9102)1;
+}
+
+.borderBottom {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to left, #ff9102, #ff4800)1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    transition: 0.5s ease-in;
+}
+
+#container:hover > .borderBottom {
+    border-image: linear-gradient(to left, #ff2600, #ff9102)1;
+}
+
+.borderRight {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #ff9102, #ff4800)1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    transition: 0.5s ease-in;
+}
+
+#container:hover > .borderRight {
+    border-image: linear-gradient(to top, #ff2600, #ff9102)1;
+}
+
+.btn-avanade {
+    background-color: #ff9102;
+    color: white;
+    border: #ff9102;
+}
+
+.-hover-avanade:hover {
+    background-color: #ff4800;
+    color: white;
+    border: #ff9102;
+}
+
+.btn-avanade {
+    background-color: #ff5800;
+    border-color: #ff5800;
+    color: #fff;
+}
+
+.btn-avanade:hover {
+    background-color: #dd4601;
+    border-color: #dd4601;
+    color: #fff;
+}
+
+.btn-avanadeGreen {
+    background-color: #008c95;
+    border-color: #008c95;
+    color: #fff;
+}
+
+.btn-avanadeGreen:hover {
+    background-color: #005f63;
+    border-color: #005f63;
+    color: #fff;
+}
+
+.btn-avanadeRed {
+    background-color: #c80000;
+    border-color: #c80000;
+    color: #fff;
+}
+
+    .btn-avanadeRed:hover {
+        background-color: #9d120d;
+        border-color: #9d120d;
+        color: #fff;
+    }
